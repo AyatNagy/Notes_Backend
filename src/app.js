@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
-const authRoutes = require('./routes/authRoutes'); // اتأكدي من المسار
-const noteRoutes = require('./routes/noteRoutes'); // اتأكدي من المسار
+const authRoutes = require('./routes/authRoutes'); 
+const noteRoutes = require('./routes/noteRoutes'); 
 
 const app = express();
 
